@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* font-family: 'Nunito', sans-serif; */
+
+/* ============================================================
+                    GENERAL STYLES
+=============================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ============================================================
+                    NAV STYLES
+=============================================================== */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {
+    display: flex;
+    padding-right: 10vw;
+}
+
+.navlogotext {
+    font-size: 2.4rem;
+    padding-left: 10px;
+}
+
+.navBlume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30px;
+    height: 30px;
+    gap: 2px;
+}
+
+.navBlume div {
+    border: 1px solid #DAA520;
+}
+
+.Blatt1 {
+    margin-top: 2px;
+}
+
+.Blatt1,
+.Blatt4 {
+    height: 12.5px;
+    width: 14.3px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.Blatt2 {
+    margin-top: 0.5px;
+}
+
+.Blatt2,
+.Blatt3 {
+    width: 12.5px;
+    height: 14.3px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.Blatt3 {
+    margin-left: 2px;
+}
+
+nav a {
+    font-size: 1.6rem;
+}
+
+nav a:last-of-type {
+    padding: 1vh 3vw;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+nav a:last-of-type:hover {
+    border: 1px solid #DAA520;
+}
+
+.sideActive {
+    font-weight: 700;
+    color: #DAA520;
+}
+
+.sideActive2 {
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: #DAA520;
+}
+
+.rosaBackground {
+    height: 90vh;
+    width: 33.5vw;
+    background-color: #F9BDBD;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30%;
+    z-index: -2;
+}
+
+.foto {
+    position: absolute;
+    top: 20vh;
+    right: 15vw;
+    width: 32.5vw;
+    object-fit: contain;
+}
+
+.blatt1 {
+    height: 160px;
+    width: 180px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid rgba(137, 66, 66, 0.2);
+    position: absolute;
+    top: 45vh;
+    right: 40vw;
+}
+
+.blatt2 {
+    height: 180px;
+    width: 160px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 1px solid rgba(137, 66, 66, 0.2);
+    position: absolute;
+    top: 42vh;
+    right: 28vw;
+}
+
+.blatt3 {
+    height: 180px;
+    width: 160px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 1px solid rgba(137, 66, 66, 0.2);
+    position: absolute;
+    top: 69vh;
+    right: 40vw;
+}
+
+.blatt4 {
+    height: 160px;
+    width: 180px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid rgba(137, 66, 66, 0.2);
+    position: absolute;
+    top: 69vh;
+    right: 26.5vw;
+}
+
+.mainIndex p {
+    font-size: 3.6rem;
+    padding: 13vh 60vw 0 5vw;
+}
+
+.mainIndex p span {
+    font-weight: 700;
+}
+
+.mainIndex h1 {
+    font-size: 7rem;
+    padding: 3vh 60vw 0 5vw;
+}
+
+.mainIndex a {
+    background-color: #DAA520;
+    color: white;
+    padding: 2vh 3vw;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    margin: 3vh 0 0 5vw;
+    display: inline-block;
+}
+
+.mainIndex a:hover {
+    border: 1px solid #DAA520;
+    background-color: white;
+    color: #DAA520;
+    padding: 2vh 3vw;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    margin: 3vh 0 0 5vw;
+    display: inline-block;
+}
